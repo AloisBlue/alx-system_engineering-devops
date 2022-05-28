@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l "$(pwd)" .. /boot
+ls -la --group-directories-first "$(pwd)" .. /boot
